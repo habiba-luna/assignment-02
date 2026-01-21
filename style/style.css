@@ -109,3 +109,132 @@ body {
     display: block;
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: #0b0217;
+  color: #fff;
+}
+
+/* Banner */
+.banner {
+  height: 100vh;
+  
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Wave Image */
+.wave-img {
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+}
+
+/* Content */
+.banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Circle */
+.circle-wrapper {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 30px;
+}
+
+.circle-img {
+  width: 100%;
+}
+
+.mic-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90px;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+}
+
+/* Text */
+h1 {
+  font-size: 56px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 35px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn img {
+  width: 18px;
+}
+
+.spotify {
+  background: linear-gradient(90deg, #ff2cdf, #ff9f43);
+}
+
+.subscribe {
+  border: 1px solid #00ff9c;
+  color: #00ff9c;
+}
+
+.mic-with-new {
+  position: relative;
+  display: inline-block;
+}
+
+.mic-icon {
+  width: 90px;
+  filter: invert(1);
+}
+
+/* NEW badge */
+.new-badge {
+  position: absolute;
+  top: -5px;
+  right: -30px;
+  background-color: #00ff9c;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 255, 156, 0.6);
+}
+
